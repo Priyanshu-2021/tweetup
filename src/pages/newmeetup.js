@@ -1,6 +1,6 @@
-import NewMeetupForm from "../components/meetups/NewMeetupForm";
+import NewMeetupForm from "../components/meetups/meetup-form/NewMeetupForm";
 
-function Newmeetup (){
+function NewMeetUp (){
     return(
         <section>
             <h1>New Meetup</h1>
@@ -8,4 +8,4 @@ function Newmeetup (){
         </section>
     );
 }
-export default Newmeetup;
+export default NewMeetUp;

@@ -1,8 +1,7 @@
 import Allmeetup from "./pages/allmeetup";
 import Favourite from "./pages/favourite.js";
-import Newmeetup from "./pages/newmeetup.js";
-import { BrowserRouter, Route, Routes, Outlet } from "react-router-dom";
-import MainNavigation from "./components/layout/MainNavigation";
+import NewMeetUp from "./pages/newmeetup.js";
+import { Route, Routes } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Allmeetup />} />
         <Route path="/fav" element={<Favourite />} />
-        <Route path="/new" element={<Newmeetup />} />
+        <Route path="/new" element={<NewMeetUp />} />
       </Routes>
       
       </Layout>
